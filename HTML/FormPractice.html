@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="FormPractice.css" type="text/css" />
+</head>
+<body>
+<form method="post">
+    <ul>
+        <li>
+            <label for="name">Enter your name</label>
+            <input id="name" type="text" name="name" placeholder="First"  />
+            <input type="text" name="name" placeholder="Last"  />
+        </li>
+        <li>
+            <label>Set a Password</label>
+            <input type="password" name="password" placeholder="password"/>
+            <input type="password" name="password" placeholder="Re-entered"/>
+        </li>
+        <li>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="example@gmail.com" />
+        </li>
+        <li>
+            <label for="comment">Your comment</label>
+            <textarea id="comment" name="comment" placeholder="message"></textarea>
+        </li>
+        <li>
+            <label for="css">Do you like CSS?</label>
+            <input id="css" type="checkbox" name="css" />
+        </li>
+        <li>
+            <label>Favorite language</label>
+            <input type="radio">Python
+            <input type="radio">Ruby
+            <input type="radio">JS
+            <input type="radio">PHP
+        </li>
+        <li>
+            <label for="date">Set date</label>
+            <input id="date" type="date" />
+        </li>
+        <li>
+            <label>Set date & time</label>
+            <input type="datetime-local" />
+        </li>
+        <li>
+            <label>Select your favorite color</label>
+            <input type="color" />
+        </li>
+        <li>
+            <label for="tel">Your Phone number</label>
+            <input id="tel" type="tel" name="phone number"/>
+        </li>
+        <li>
+            <input type="submit" value="Send" />
+        </li>
+    </ul>
+</form>
+</body>
+</html>

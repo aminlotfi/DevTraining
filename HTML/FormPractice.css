@@ -1,0 +1,31 @@
+form{
+    border: 2px solid black;
+    width: 420px;
+    height: auto;
+}
+
+form li{
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+    color: #666;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+form ul{
+    padding-left: 8px;
+}
+
+textarea{
+    height: 200px;
+    width: 400px;
+}
+
+label:hover{
+    color: #000000;
+}
