@@ -1,5 +1,5 @@
 body {
-    width: 700px;
+    width: 702px;
     margin: 20px auto;
     clear: both;
 
@@ -73,4 +73,7 @@ article h2 {
 }
 .continue:after {
     content: ')';
+}
+img:hover {
+    border: 1px solid green;
 }
